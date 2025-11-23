@@ -1,0 +1,92 @@
+/* ========== HAMBURGER MENU BUTTON ========== */
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: .5s;
+}
+
+.bars {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(92, 130, 255);
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: .8s;
+}
+
+#bar1 {
+  width: 50%;
+}
+
+#bar2 {
+  width: 75%;
+}
+
+#checkbox:checked + .toggle .bars {
+  position: absolute;
+  transition-duration: .5s;
+}
+
+#checkbox:checked + .toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: .1s;
+}
+
+#checkbox:checked + .toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked + .toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked + .toggle {
+  transform: rotate(180deg);
+}
+
+/* ========= NEON EFFECTS ========= */
+
+.neon-text {
+  text-shadow: 0 0 8px #7ab8ff, 0 0 16px #4c9aff;
+}
+
+.neon-hover {
+  position: relative;
+}
+.neon-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: #6ea8ff;
+  box-shadow: 0 0 6px #6ea8ff;
+  transition: width .3s;
+}
+.neon-hover:hover::after {
+  width: 100%;
+}
+
+.neon-icon:hover {
+  color: #7ab8ff;
+  text-shadow: 0 0 8px #7ab8ff, 0 0 16px #4c9aff;
+  transition: .3s;
+}
