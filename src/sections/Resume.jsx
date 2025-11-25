@@ -184,7 +184,7 @@ export default function Resume() {
                     title="National Service Personnel"
                     period="Oct 2021 – Aug 2022 | National Health Insurance Authority"
                     points={[
-                        "Assisted clients with renewal and registration",
+                        "Assisted clients with needed services",
                         "Provided clarity on health insurance processes",
                         "Helped streamline daily operations"
                     ]}

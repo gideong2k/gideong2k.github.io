@@ -6,6 +6,8 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Resume from "./sections/Resume";
 import Portfolio from "./sections/Portfolio";
+import Services from "./sections/Services";
+import Contact from "./sections/Contact";
 import './components/NeonEffects.css';
 import Footer from "./components/Footer";
 
@@ -28,6 +30,8 @@ export default function App() {
         <About />
         <Resume />
         <Portfolio />
+        <Services />
+        <Contact />      
 
         <Footer />
       </main>

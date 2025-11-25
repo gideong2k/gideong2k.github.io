@@ -44,9 +44,8 @@ export default function About() {
               <ScrollFade>
                 <ul className="space-y-2 text-sm">
                   <li><strong>University:</strong> <span className="text-slate-600 dark:text-slate-300">Heritage Christian University, Ghana</span></li>
-                  <li><strong>Portfolio Site:</strong> <span className="text-slate-600 dark:text-slate-300">www.example.com</span></li>
+                  <li><strong>Portfolio Site:</strong> <span className="text-slate-600 dark:text-slate-300">gideong2k.github.io</span></li>
                   <li><strong>Phone:</strong> <span className="text-slate-600 dark:text-slate-300">+233 540 340 066</span></li>
-                  <li><strong>City:</strong> <span className="text-slate-600 dark:text-slate-300">Accra</span></li>
                 </ul>
               </ScrollFade>
 
@@ -55,7 +54,7 @@ export default function About() {
                   <li><strong>Degree:</strong> <span className="text-slate-600 dark:text-slate-300">BSc Information Technology</span></li>
                   <li><strong>Email:</strong> <span className="text-slate-600 dark:text-slate-300">ggakpetor21@gmail.com</span></li>
                   <li><strong>Freelance:</strong> <span className="text-slate-600 dark:text-slate-300">Available</span></li>
-                  <li><strong>Birth month:</strong> <span className="text-slate-600 dark:text-slate-300">December</span></li>
+                  <li><strong>City:</strong> <span className="text-slate-600 dark:text-slate-300">Accra</span></li>
                 </ul>
               </ScrollFade>
             </div>

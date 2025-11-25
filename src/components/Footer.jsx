@@ -3,7 +3,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full py-10 bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 mt-20">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-1">
         
         {/* Logo / Name */}
         <h2 className="text-xl font-semibold tracking-wide">
