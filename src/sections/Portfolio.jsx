@@ -7,8 +7,8 @@ export default function Portfolio() {
 
   useEffect(() => {
     fetch("/projects.json")
-      .then(res => res.json())
-      .then(data => setProjects(data));
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
   }, []);
 
   return (
