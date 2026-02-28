@@ -40,7 +40,7 @@ export default function Services() {
         </ScrollFade>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10">
           {services.map((service, i) => (
             <ScrollFade key={i}>
               <motion.div
