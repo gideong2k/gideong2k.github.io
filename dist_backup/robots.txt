@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://gideong2k.github.io/sitemap.xml

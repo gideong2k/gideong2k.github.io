@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { FaGithub, FaExternalLinkAlt, FaPlayCircle } from "react-icons/fa";
 
 export default function PortfolioCard({ project, category }) {
-  const isMedia = category === "Media & Creative";
+  const isMedia = project.type === "media";
 
   return (
     <motion.div
@@ -85,6 +85,7 @@ export default function PortfolioCard({ project, category }) {
                 href={project.demo}
                 target="_blank"
                 className="flex items-center gap-2 text-gray-800 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all"
+                rel="noopener noreferrer"
               >
                 <FaExternalLinkAlt className="text-lg" />
                 <span className="text-sm">Demo</span>
@@ -96,6 +97,7 @@ export default function PortfolioCard({ project, category }) {
                 href={project.link}
                 target="_blank"
                 className="flex items-center gap-2 text-gray-800 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-400 transition-all"
+                rel="noopener noreferrer"
               >
                 <FaExternalLinkAlt className="text-lg" />
                 <span className="text-sm">View</span>
