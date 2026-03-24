@@ -181,23 +181,32 @@ export default function Resume() {
                 <div className="space-y-10">
 
                     <TimelineItem
-                    title="National Service Personnel"
-                    period="Oct 2021 – Aug 2022 | National Health Insurance Authority"
-                    points={[
-                        "Assisted clients with needed services",
-                        "Provided clarity on health insurance processes",
-                        "Helped streamline daily operations"
-                    ]}
+                      title="Tech Support|Web Developer "
+                      period="Jul 2024 – Aug 2025 | Papa's Place"
+                      points={[
+                          "Developed and managed the hotel's website",
+                          "Responsible for information technology related tasks",
+                      ]}
                     />
 
                     <TimelineItem
-                    title="TV Control Room Engineer (Intern)"
-                    period="Jun 2020 – Aug 2021 | Truth Television"
-                    points={[
-                        "Operated master control room systems",
-                        "Handled sound, lighting, and graphics",
-                        "Assisted with live production content"
-                    ]}
+                      title="National Service Personnel"
+                      period="Oct 2021 – Aug 2022 | National Health Insurance Authority"
+                      points={[
+                          "Assisted clients with needed services",
+                          "Provided clarity on health insurance processes",
+                          "Helped streamline daily operations"
+                      ]}
+                    />
+
+                    <TimelineItem
+                      title="TV Control Room Engineer (Intern)"
+                      period="Jun 2020 – Aug 2021 | Truth Television"
+                      points={[
+                          "Operated master control room systems",
+                          "Handled sound, lighting, and graphics",
+                          "Assisted with live production content"
+                      ]}
                     />
                 </div>
             </div>
