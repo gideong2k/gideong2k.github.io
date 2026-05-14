@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import Typewriter from "../components/Typewriter";
 import { FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaDiscord, FaXTwitter } from "react-icons/fa6";
 import heroImg from "../assets/hero-img.png";
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="w-full h-screen relative flex items-center bg-cover bg-center"
+      className="w-full px-24 h-screen relative flex items-center bg-cover bg-center"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80')",
@@ -59,6 +59,9 @@ export default function Hero() {
             </a>
             <a href="https://wa.me/+233540340066" className="hover:text-green-400 transition" target="_blank">
               <FaWhatsapp />
+            </a>
+            <a href="https://discordapp.com/users/841115843462823967" className="hover:text-green-400 transition" target="_blank">
+              <FaDiscord />
             </a>
           </div>
         </motion.div>

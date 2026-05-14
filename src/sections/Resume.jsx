@@ -108,14 +108,15 @@ export default function Resume() {
 
               <SkillBar label="HTML" level={75} />
               <SkillBar label="CSS" level={80} />
-              <SkillBar label="JS" level={60} />
-              <SkillBar label="React" level={50} />
-              <SkillBar label="Python" level={80} />
+              <SkillBar label="JS" level={70} />
+              <SkillBar label="React" level={75} />
+              <SkillBar label="FastAPI" level={80} />
+              <SkillBar label="Django" level={80} />
               <SkillBar label="Vue.js" level={45} />
-              <SkillBar label="Express.js" level={45} />
+              <SkillBar label="Express.js" level={55} />
               <SkillBar label="Database & APIs" level={75} />
               <SkillBar label="Embedded Systems / IoT" level={65} />
-              <SkillBar label="Ms Office Suit" level={75} />
+              <SkillBar label="Ms Office Suit" level={90} />
             </div>
 
             {/* Soft Skills */}
@@ -129,29 +130,69 @@ export default function Resume() {
                   <li>Adaptability</li>
                   <li>Creativity</li>
                   <li>Communication</li>
-                  <li>Time Management</li>
               </ul>
             </div>
 
-            {/* Development Tools */}
+            {/* Languages */}
             <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
             hover:border-blue-500 hover:shadow-[0_0_20px_#3b82f6] transition-all">
-            <h3 className="text-2xl font-semibold mb-4">Development Tools</h3>
+              <h3 className="text-2xl font-semibold mb-4">Programming Languages</h3>
+
+              <ul className="list-disc list-inside space-y-1 grid grid-cols-2 text-gray-700 dark:text-slate-300 gap-2">
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>PHP</li>
+                  <li>JavaScript</li>
+                  <li>Kotlin</li>
+                  <li>SQL</li>
+              </ul>
+            </div>
+
+            {/* Deployment & DevOps */}
+            <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
+            hover:border-blue-500 hover:shadow-[0_0_20px_#3b82f6] transition-all">
+            <h3 className="text-2xl font-semibold mb-4">DevOps & Deployment</h3>
+
+            <ul className="list-disc list-inside space-y-1 grid grid-cols-2 text-gray-700 dark:text-gray-300 gap-2">
+                <li>Git & GitHub</li>
+                <li>Render</li>
+                <li>PythonAnywhere</li>
+                <li>Netlify</li>
+            </ul>
+            </div>
+
+            {/* Database */}
+            <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
+            hover:border-blue-500 hover:shadow-[0_0_20px_#3b82f6] transition-all">
+            <h3 className="text-2xl font-semibold mb-4">Databases & Backend Services</h3>
+
+            <ul className="list-disc list-inside space-y-1 grid grid-cols-2 text-gray-700 dark:text-gray-300 gap-2">
+                <li>Supabase</li>
+                <li>Redis</li>
+                <li>Firebase</li>
+                <li>PostgreSQL</li>
+                <li>SQLite</li>
+            </ul>
+            </div>
+
+            {/* Database */}
+            <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
+            hover:border-blue-500 hover:shadow-[0_0_20px_#3b82f6] transition-all">
+            <h3 className="text-2xl font-semibold mb-4">Tools & Platforms</h3>
 
             <ul className="list-disc list-inside space-y-1 grid grid-cols-2 text-gray-700 dark:text-gray-300 gap-2">
                 <li>VS Code</li>
+                <li>Talend</li>
                 <li>Postman</li>
-                <li>Git & GitHub</li>
-                <li>Firebase</li>
-                <li>Netlify</li>
-                <li>PythonAnywhere</li>
+                <li>Antigravity</li>
+                <li>SQLite</li>
             </ul>
             </div>
 
             {/* AI Tools */}
             <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
             hover:border-blue-500 hover:shadow-[0_0_20px_#3b82f6] transition-all">
-            <h3 className="text-2xl font-semibold mb-4">GenAI Tools</h3>
+            <h3 className="text-2xl font-semibold mb-4">AI Tools</h3>
 
             <ul className="list-disc list-inside space-y-1 grid grid-cols-2 text-gray-700 dark:text-gray-300 gap-2">
                 <li>ChatGPT</li>
@@ -162,6 +203,21 @@ export default function Resume() {
                 <li>Meta Llama</li>
                 <li>ImageFx</li>
             </ul>
+            </div>
+
+            {/* Core Strengths */}
+            <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
+            hover:border-blue-500 hover:shadow-[0_0_20px_#3b82f6] transition-all">
+              <h3 className="text-2xl font-semibold mb-4">Core Strengths</h3>
+
+              <ul className="list-disc list-inside space-y-1 grid grid-cols-2 text-gray-700 dark:text-slate-300 gap-2">
+                  <li>Full Stack Development</li>
+                  <li>API Integration</li>
+                  <li>Responsive UI Development</li>
+                  <li>Debugging & Optimization</li>
+                  <li>Remote Collaborations</li>
+                  <li>Git Version Control</li>
+              </ul>
             </div>
           </motion.div>
 
@@ -234,9 +290,10 @@ export default function Resume() {
                       title="Water Quality Dashboard "
                       period="April 2024 – Present | Gedza Farms"
                       points={[
-                          "Implemented a data pipeline using python and a dissolved oxygen transmitter",
-                          "Utilized firebase for saving sensor data",
-                          "Created a real-time web display using GitHub pages",
+                          "Developed a Python-based data pipeline for collecting and processing dissolved oxygen sensor data",
+                          "Integrated Firebase Realtime Database for real-time sensor data storage and synchronization",
+                          "Built a live monitoring dashboard using JavaScript and GitHub Pages for real-time data visualization",
+                          "Assisted in improving monitoring reliability and accessibility for farm operations"
                       ]}
                     />
 
@@ -244,8 +301,9 @@ export default function Resume() {
                       title="Tech Support|Web Developer "
                       period="Jul 2024 – Aug 2025 | Papa's Place"
                       points={[
-                          "Developed and managed hotel's website",
-                          "Responsible for information technology related tasks",
+                          "Developed and maintained the hotel’s website, improving online visibility and user accessibility",
+                          "Managed IT support tasks including troubleshooting systems, network issues, and software maintenance",
+                          "Assisted with website updates, content management, and technical support operations"
                       ]}
                     />
 
@@ -263,9 +321,9 @@ export default function Resume() {
                       title="TV Control Room Engineer (Intern)"
                       period="Jun 2020 – Aug 2021 | Truth Television"
                       points={[
-                          "Operated master control room systems",
-                          "Handled sound, lighting, and graphics",
-                          "Assisted with live production content"
+                          "Operated and monitored master control room broadcasting systems",
+                          "Assisted with live television production including audio, lighting, and graphics coordination",
+                          "Supported technical operations to ensure smooth live broadcast delivery"
                       ]}
                     />
                 </div>
@@ -282,10 +340,7 @@ export default function Resume() {
                     title="BSc. Information Technology"
                     period="2017 – 2021 | Heritage Christian University - Accra, Ghana"
                     points={[
-                        "Website Development",
-                        "Mobile App Development",
-                        "Data Communication",
-                        "Database Management"
+                        "Final Project: Student Management System"
                     ]}
                     />
                 </div>
