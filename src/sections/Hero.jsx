@@ -48,10 +48,10 @@ export default function Hero() {
 
           {/* Social Icons */}
           <div className="flex space-x-5 sm:space-x-6 mt-6 text-xl sm:text-2xl">
-            <a href="https://x.com/gideonG2K" className="hover:text-blue-400 transition" target="_blank">
+            <a href="https://x.com/2Gs1K" className="hover:text-blue-400 transition" target="_blank">
               <FaXTwitter />
             </a>
-            <a href="https://instagram.com/gideong10/" className="hover:text-pink-400 transition" target="_blank">
+            <a href="https://instagram.com/gideong2k/" className="hover:text-pink-400 transition" target="_blank">
               <FaInstagram />
             </a>
             <a href="https://linkedin.com/in/gideon-gakpetor-726378211/" className="hover:text-blue-300 transition" target="_blank">

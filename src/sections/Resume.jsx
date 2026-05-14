@@ -106,14 +106,16 @@ export default function Resume() {
             <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 hover:border-blue-500 hover:shadow-[0_0_20px_#3b82f6] transition-all">
               <h3 className="text-2xl font-semibold mb-4">Technical Skills</h3>
 
-              <SkillBar label="HTML / CSS / JS" level={75} />
-              <SkillBar label="React.js" level={50} />
+              <SkillBar label="HTML" level={75} />
+              <SkillBar label="CSS" level={80} />
+              <SkillBar label="JS" level={60} />
+              <SkillBar label="React" level={50} />
               <SkillBar label="Python" level={80} />
               <SkillBar label="Vue.js" level={45} />
               <SkillBar label="Express.js" level={45} />
               <SkillBar label="Database & APIs" level={75} />
               <SkillBar label="Embedded Systems / IoT" level={65} />
-              <SkillBar label="MsOffice Suit" level={75} />
+              <SkillBar label="Ms Office Suit" level={75} />
             </div>
 
             {/* Soft Skills */}
@@ -181,6 +183,16 @@ export default function Resume() {
                 <div className="space-y-10">
 
                     <TimelineItem
+                      title="IOT(Internet of Things) Engineer "
+                      period="April 2024 – Present | Gedza Farms"
+                      points={[
+                          "Implemented a data pipeline using python and a dissolved oxygen transmitter",
+                          "Utilized firebase for saving sensor data",
+                          "Created a real-time web display using GitHub pages",
+                      ]}
+                    />
+
+                    <TimelineItem
                       title="Tech Support|Web Developer "
                       period="Jul 2024 – Aug 2025 | Papa's Place"
                       points={[
@@ -211,6 +223,54 @@ export default function Resume() {
                 </div>
             </div>
 
+            {/* PROJECTS */}
+            <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
+                hover:border-blue-500 hover:shadow-[0_0_20px_#3b82f6] transition-all">
+                <h3 className="text-2xl font-semibold mb-4">Work Experience</h3>
+
+                <div className="space-y-10">
+
+                    <TimelineItem
+                      title="Water Quality Dashboard "
+                      period="April 2024 – Present | Gedza Farms"
+                      points={[
+                          "Implemented a data pipeline using python and a dissolved oxygen transmitter",
+                          "Utilized firebase for saving sensor data",
+                          "Created a real-time web display using GitHub pages",
+                      ]}
+                    />
+
+                    <TimelineItem
+                      title="Tech Support|Web Developer "
+                      period="Jul 2024 – Aug 2025 | Papa's Place"
+                      points={[
+                          "Developed and managed hotel's website",
+                          "Responsible for information technology related tasks",
+                      ]}
+                    />
+
+                    <TimelineItem
+                      title="National Service Personnel"
+                      period="Oct 2021 – Aug 2022 | National Health Insurance Authority"
+                      points={[
+                          "Assisted clients with needed services",
+                          "Provided clarity on health insurance for members",
+                          "Helped streamline daily operations"
+                      ]}
+                    />
+
+                    <TimelineItem
+                      title="TV Control Room Engineer (Intern)"
+                      period="Jun 2020 – Aug 2021 | Truth Television"
+                      points={[
+                          "Operated master control room systems",
+                          "Handled sound, lighting, and graphics",
+                          "Assisted with live production content"
+                      ]}
+                    />
+                </div>
+            </div>
+
 
             {/* EDUCATION */}
             <div className="p-6 rounded-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
@@ -220,24 +280,13 @@ export default function Resume() {
                 <div className="space-y-10">
                     <TimelineItem
                     title="BSc. Information Technology"
-                    period="2017 – 2021 | Heritage Christian University, Greater Accra"
+                    period="2017 – 2021 | Heritage Christian University - Accra, Ghana"
                     points={[
                         "Website Development",
                         "Mobile App Development",
-                        "Network Administration",
+                        "Data Communication",
                         "Database Management"
                     ]}
-                    />
-
-                    <TimelineItem
-                    title="General Arts"
-                    period="2014 – 2017 | Sogakope Senior High, Volta Region"
-                    // points={[
-                    //     "Government",
-                    //     "Economics",
-                    //     "Geography",
-                    //     "Elective Mathematics"
-                    // ]}
                     />
                 </div>
             </div>

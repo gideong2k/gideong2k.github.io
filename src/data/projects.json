@@ -9,22 +9,22 @@
     "tags": ["React", "TailwindCSS", "Framer Motion"]
   },
   {
-    "title": "E-commerce App",
+    "title": "E-commerce Website",
     "type": "programming",
     "description": "Mobile shop app built with React Native and Firebase.",
     "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
     "github": "https://github.com/gideong2k/agro_web",
     "demo": "kg5.pythonanywhere.com",
-    "tags": ["React Native", "Firebase", "UI/UX"]
+    "tags": ["HTML5", "CSS3", "JavaScript", "Django"]
   },
   {
     "title": "IoT Sensor System",
     "type": "programming",
     "description": "Real-time IoT sensor system using ESP32 and Modbus.",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
-    "github": "",
+    "github": "https://github.com/gedzafarms/gedzafarms.github.io",
     "demo": "https://gedzafarms.github.io",
-    "tags": ["ESP32", "Modbus", "C/C++"]
+    "tags": ["ESP32", "Modbus", "DO Sensor"]
   },
   {
     "title": "Hotel Management Website",
@@ -59,27 +59,11 @@
     "tags": ["Photoshop"]
   },
   {
-    "title": "Business Event Poster Design",
-    "type": "media",
-    "description": "Corporate event poster designed for both print and social media.",
-    "image": "https://drive.google.com/thumbnail?id=YOUR_FILE_ID",
-    "demo": "https://drive.google.com/file/d/YOUR_FILE_ID/view",
-    "tags": ["Illustrator", "Print Design"]
-  },
-  {
     "title": "Product Promo Video Edit",
     "type": "media",
     "description": "Short promotional product video edited for marketing campaigns.",
     "image": "https://drive.google.com/thumbnail?id=YOUR_VIDEO_FILE_ID",
     "demo": "https://drive.google.com/file/d/YOUR_VIDEO_FILE_ID/view",
-    "tags": ["Video Editing", "Premiere Pro", "Marketing"]
-  },
-  {
-    "title": "Social Media Reel Edit",
-    "type": "media",
-    "description": "Engaging social media reel optimized for Instagram and TikTok.",
-    "image": "https://drive.google.com/thumbnail?id=YOUR_VIDEO_FILE_ID",
-    "demo": "https://drive.google.com/file/d/YOUR_VIDEO_FILE_ID/view",
-    "tags": ["Reels", "CapCut", "Content Creation"]
+    "tags": ["Video Editing", "Premiere Pro"]
   }
 ]
