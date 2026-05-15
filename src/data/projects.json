@@ -59,11 +59,51 @@
     "tags": ["Photoshop"]
   },
   {
-    "title": "Product Promo Video Edit",
+    "title": "Program Promo Video Edit",
     "type": "media",
-    "description": "Short promotional product video edited for marketing campaigns.",
-    "image": "https://drive.google.com/thumbnail?id=YOUR_VIDEO_FILE_ID",
-    "demo": "https://drive.google.com/file/d/YOUR_VIDEO_FILE_ID/view",
+    "description": "Short promotional ALEWAH program video",
+    "image": "https://lh3.googleusercontent.com/d/1U4h4SSGALNyOLt_uf4XabBLD20lLgpR3",
+    "demo": "https://drive.google.com/file/d/1U4h4SSGALNyOLt_uf4XabBLD20lLgpR3/view",
     "tags": ["Video Editing", "Premiere Pro"]
-  }
+  },
+  {
+    "title": "Night Jamz Flyer Design",
+    "type": "media",
+    "description": "Detailed flyer for a night jamz program",
+    "image": "https://lh3.googleusercontent.com/d/1m89liJnHUGOjNSwn3UHbS2qrPYXK8Ob2",
+    "demo": "https://drive.google.com/file/d/1m89liJnHUGOjNSwn3UHbS2qrPYXK8Ob2/view",
+    "tags": ["Canva"]
+  },
+  {
+  "title": "Night Jamz Flyer Design",
+    "type": "media",
+    "description": "Detailed flyer for a night jamz program",
+    "image": "https://lh3.googleusercontent.com/d/1Mpe156_sIHiYiLlmiiVWzZrB1IkRzGL_",
+    "demo": "https://drive.google.com/file/d/1Mpe156_sIHiYiLlmiiVWzZrB1IkRzGL_/view",
+    "tags": ["Canva"]
+  },
+  {
+  "title": "Product Promo Flyer Design",
+    "type": "media",
+    "description": "Detailed product promo flyer design",
+    "image": "https://lh3.googleusercontent.com/d/1jvU0gkUlMOkldS5Tp15A97fAnu3y4Pag",
+    "demo": "https://drive.google.com/file/d/1jvU0gkUlMOkldS5Tp15A97fAnu3y4Pag/view",
+    "tags": ["Canva"]
+  },
+  {
+  "title": "Program Flyer Design",
+    "type": "media",
+    "description": "Marriage Program and Outline Design",
+    "image": "https://lh3.googleusercontent.com/d/1YUEDvJCBga0kb-mZGh3X3IJE6T9LhRXf",
+    "demo": "https://drive.google.com/file/d/1YUEDvJCBga0kb-mZGh3X3IJE6T9LhRXf/view",
+    "tags": ["Canva"]
+  },
+  {
+  "title": "Program Flyer Design",
+    "type": "media",
+    "description": "Marriage Program and Outline Design",
+    "image": "https://lh3.googleusercontent.com/d/1OgG7Q-I1KtfbqB4hIBk8uYxzCMngO6Gq",
+    "demo": "https://drive.google.com/file/d/1OgG7Q-I1KtfbqB4hIBk8uYxzCMngO6Gq/view",
+    "tags": ["Canva"]
+  }  
 ]
