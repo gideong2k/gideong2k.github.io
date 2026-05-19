@@ -60,7 +60,7 @@ export default function Hero() {
             <a href="https://wa.me/+233540340066" className="hover:text-green-400 transition" target="_blank">
               <FaWhatsapp />
             </a>
-            <a href="https://discordapp.com/users/841115843462823967" className="hover:text-green-400 transition" target="_blank">
+            <a href="https://discordapp.com/users/841115843462823967" className="hover:text-indigo-400 transition" target="_blank">
               <FaDiscord />
             </a>
           </div>
